@@ -1,0 +1,113 @@
+/*.label {
+    -fx-padding: 0px;
+}*/
+
+.root {
+  -fx-font-family: "Rockwell";
+  /* define variables to avoid duplicating values */
+  text_color: #FFFFFF;
+  alt_color: #808080;
+  -fx-background-color: #000000;
+}
+
+#propertyVBox {
+  -fx-background-color: White;
+  -fx-border-color: #000000;
+  -fx-border-width: 3px;
+  -fx-padding: 10px;
+}
+
+#ProfileVBox {
+  -fx-border-color: #000000;
+  -fx-border-width: 3px;
+  -fx-padding: 10px;
+}
+
+#propdisptilename {
+  -fx-font-size: 80%;
+  -fx-padding: 2px;
+  -fx-text-alignment: center;
+}
+
+.choice-box {
+  -fx-border-style: solid;
+  -fx-padding: 5px;
+  -fx-spacing: 2px;
+}
+
+.radio-button {
+  -fx-text-fill: text_color;
+  -fx-color: darkgray;
+}
+
+.button-box {
+  -fx-alignment: center;
+  -fx-spacing: 8px;
+  -fx-color: darkgray;
+
+}
+
+.button {
+  -fx-text-fill: text_color;
+  -fx-color: darkgray;
+  -fx-padding: 10px;
+  -fx-border-color: lightgrey;
+}
+
+.text-area {
+  -fx-border-color: lightgrey;
+  -fx-background-color: darkgray;
+}
+
+.label {
+  -fx-font-size: 15;
+  -fx-text-fill: alt_color;
+  -fx-alignment: center;
+  -fx-min-width: 10px;
+  -fx-padding: 10px;
+}
+
+.text-field {
+  -fx-text-fill: text_color;
+  -fx-background-color: darkgray;
+  -fx-min-width: 200px;
+}
+
+#tileBox {
+  -fx-background-color: #cecdcd;
+  -fx-border-color: black;
+  -fx-alignment: top-center;
+}
+
+
+#Start,#Options,#Signup,#Login,#Update{
+  -fx-background-color: #c4c4c4;
+  -fx-min-width: 200;
+  -fx-min-height: 100;
+  -fx-font-size:30;
+  -fx-border-color: black;
+  -fx-border-width: 4px;
+  -fx-border-radius: 3px;
+  -fx-background-radius: 3px;
+  -fx-background-insets: 3px;
+
+}
+
+
+#Start:hover, #Options:hover, #Signup:hover, #Login:hover, #Update:hover{
+  -fx-background-color: #8c8c8c;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 20, 0.0, 0, 1);
+  -fx-font-size: 35;
+}
+
+#Continue,#GotoHome, #CreateYourOwn{
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 2px;
+  -fx-background-insets: 2px;
+}
+
+.button:hover{
+  -fx-background-color: #8c8c8c;
+}

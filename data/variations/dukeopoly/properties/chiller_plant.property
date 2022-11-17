@@ -1,0 +1,7 @@
+Name=Chiller Plant
+Type=Utilities
+Cost=150
+RentCost=4,10
+Mortgage=75
+Neighbors=Duke Energy
+Image=
