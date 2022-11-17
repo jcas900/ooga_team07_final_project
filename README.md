@@ -1,47 +1,12 @@
 ooga
 ====
 
-This project implements a player for multiple related games.
+This project contains multiple versions of the game of Monopoly, dynamically rendered based on user created data files.  The versions can be created via a new data file or through the in game editor.  I (Jordan Castleman) worked along with four other teammates to create this project; I was a critical part of the design phase and implemented a significant amount of the backend.  
 
-Names:
-
-
-### Timeline
-
-Start Date: 
-
-Finish Date: 
-
-Hours Spent:
-
-### Primary Roles
-
-
-### Resources Used
-http://www.falstad.com/monopoly.html
-
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Names: Jordan Castleman, Aaric Han, William Convertino, Casey Goldstein, and Henry Huynh
 
 ### Running the Program
 
-Main class:
+Simply run Main.main()
 
-Data files needed: 
-
-Features implemented:
-
-
-
-### Notes/Assumptions
-
-Assumptions or Simplifications:
-
-Interesting data files:
-
-Known Bugs:
-
-Challenge Features:
-
-
-### Impressions
 
